@@ -10,7 +10,7 @@
   }
   &__grid {
     display: grid;
-    grid-template-columns: fit-content;
+    grid-template-columns: 100%;
     grid-template-rows: 100px 100px 100px;
     row-gap: 45px;
     margin: auto;
@@ -39,11 +39,13 @@
     margin: auto;
     margin-top: 30px;
     & a {
+      padding: 14px 23px;
       color: $white;
       font-family: $text-font;
       font-size: 20px;
       line-height: 45px;
       text-decoration: none;
+      text-align: center;
     }
   }
 }
