@@ -1,0 +1,39 @@
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/images/cover.jpeg);
+    background-size: cover;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    &__title{
+        font-family: $title-font;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 50px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__text{
+        font-family: $text-font;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    &__button{
+        background-color: $white;
+        border-radius: 50%;
+        width: 37.9px;
+        height: 35.7px;
+        margin: 15px 0 37.9px 0;
+        & a{
+            display: block;
+            & img{
+                padding: 13px 9px;
+            }
+        }
+        
+    }
+}
