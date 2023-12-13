@@ -37,9 +37,6 @@
         } 
     }
     @media ( min-width: 768px){
-        // background-size: 180%;
-        // background-position: 25% 50%;
-       
         &__title{
             font-size: 75px;
             line-height: 100px;
@@ -48,6 +45,15 @@
             width: 340px;
             font-size: 24px;
             line-height: 28px;
+        }
+    }
+    @media ( min-width: 1280px){
+        &__title{
+            font-size: 100px;
+            line-height: 132px;
+        }
+        &__text{
+            width: 750px;
         }
     }
 }

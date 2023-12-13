@@ -1,6 +1,5 @@
 .connect {
   margin: 34px 20px 50px 20px;
-
   &__orange {
     font-family: $text-font;
     color: $orange;
@@ -35,7 +34,8 @@
       text-decoration: none;
     }
   }
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
+    margin: 34px 40px 50px 40px;
     &__orange {
       font-size: 16px;
     }
@@ -46,5 +46,8 @@
     &__text {
       font-size: 20px;
     }
+  }
+  @media (min-width: 1280px) {
+    margin: 34px 140px 50px 275px;
   }
 }
