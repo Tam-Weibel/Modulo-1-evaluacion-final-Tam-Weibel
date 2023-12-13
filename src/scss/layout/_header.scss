@@ -3,11 +3,12 @@
     height: 35px;
     background-color: $orange;
     position: fixed;
-    &__img{
-        width: 13.5px;
-        height: 11.1px;
-        color: $white;
-        object-fit: contain;
-        padding: 12px;
+    & a{
+        display: block;
+        height: 35px;
+        & img{
+            padding: 10.5px;
+        }
     }
 }
+    
