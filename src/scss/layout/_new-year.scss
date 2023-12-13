@@ -75,4 +75,14 @@
       margin: 20px auto;
     }
   }
+  @media (min-width: 1280px) {
+    padding: 0 50px;
+    &__title {
+      font-size: 32px;
+      padding-bottom: 30px;
+    }
+    &__button{
+      margin: 20px auto;
+    }
+  }
 }
