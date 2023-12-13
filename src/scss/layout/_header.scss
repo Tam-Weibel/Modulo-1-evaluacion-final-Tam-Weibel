@@ -10,5 +10,19 @@
             padding: 10.5px;
         }
     }
+    @media (min-width: 768px) {
+        width: 42px;
+        height: 44px;
+        & a{
+            height: 41.6px;
+            & img{
+                padding: 14px;
+            }
+        }
+    }
+    @media (min-width: 1280px) {
+        width: 46px;
+        height: 45px;
+    }
 }
     
