@@ -20,6 +20,7 @@
     }
     & p {
       font-family: $text-font;
+      font-weight: 400;
       font-size: 18px;
       line-height: 30px;
     }
@@ -30,16 +31,15 @@
     border-radius: 22.5px;
     border: 2px solid $orange;
     background-color: $orange;
-    text-align: center;
     margin: 10px auto;
     & a {
-      padding: 14px 23px;
+      padding: 10px 20px;
       color: $white;
       font-family: $text-font;
+      font-weight: 500;
       font-size: 20px;
       line-height: 45px;
       text-decoration: none;
-      text-align: center;
     }
   }
   @media (min-width: 768px) {
