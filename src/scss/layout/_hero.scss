@@ -38,6 +38,8 @@
     }
   }
   @media (min-width: 768px) {
+    background-size: 200%;
+    background-position: 20% 90%;
     &__title {
       font-size: 75px;
       line-height: 100px;
@@ -49,6 +51,8 @@
     }
   }
   @media (min-width: 1280px) {
+    background-size: 150%;
+    background-position: 45% 85%;
     &__title {
       font-size: 100px;
       line-height: 132px;
