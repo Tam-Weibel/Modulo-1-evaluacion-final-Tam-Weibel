@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40% 70%;
+  transition: ease all 0.5s;
   color: $white;
   display: flex;
   flex-direction: column;
@@ -38,7 +39,7 @@
     }
   }
   @media (min-width: 768px) {
-    background-size: 200%;
+    background-size: 225%;
     background-position: 20% 90%;
     &__title {
       font-size: 75px;
